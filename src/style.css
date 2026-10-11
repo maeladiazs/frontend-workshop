@@ -1,0 +1,34 @@
+:root {
+  --color-pink-soft: #FDF2F4;
+  --color-pink-accent: #E8A8B7;
+  --color-gold: #D4AF37;
+  --color-gold-glow: #F9E29D;
+  --color-royal-wine: #5E2A3B;
+  --color-text-dark: #381521;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FDF2F4;
+  color: var(--color-text-dark);
+}
+
+#app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
